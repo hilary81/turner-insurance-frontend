@@ -1,0 +1,54 @@
+.social_bar_right{
+    color: aliceblue;
+}
+
+
+.social_bar{
+    padding-top:20px;
+    padding-bottom:15px;
+    display:flex;
+    background-color:var(--primary-color);
+}
+ 
+.link-social{
+    text-decoration: none;
+    background-color:var(--primary-color);    
+}
+.bottom_right{
+    background-color: var(--primary-color);
+}
+.social_icon, .social_title{
+    color:aliceblue;
+ 
+}
+
+.social_icon:hover, .social_title:hover{
+    color:var(--secondary-color);
+}
+
+.social_items{
+    display:flex;
+    flex-direction: row-reverse;
+    gap:10px;      
+}
+button{
+  border:none;
+  border-color: black;
+}
+@media only screen and (max-width: 768px){
+    .social_bar{
+        justify-content: center;
+     
+    }
+    
+    .social_items{
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;
+       
+    }
+    
+
+
+}
+

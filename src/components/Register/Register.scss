@@ -1,0 +1,124 @@
+
+
+
+.main-Register{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x:hidden;
+    background:white;
+    margin-top: 2.5rem;
+ 
+   .right-side{
+        flex:0.70;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .top-right{
+            float: right;
+            margin-right: 1rem;
+            font-size: large;
+            #Links-signIn{
+                text-decoration: none;
+                font-style: 600;
+                font-weight: bolder;
+                margin-left: 0.3rem;
+                cursor: pointer;
+                color: lightslategray;
+                &:hover{
+                    color:aqua;
+                }
+            }
+        }
+
+    .body-right{
+        height: 100%;
+        width: 100%;
+           .container{         
+                height: 70%;
+                width: 60%;
+                margin: 4rem auto;
+                padding-top: 2rem;
+                box-shadow: 0rem 0rem 2rem 0.1rem ;
+                
+                border-radius: 0.5rem;
+            h1{
+                text-align: center;
+                font-weight: bold;
+            }
+              .forms-lists{
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+              }
+                
+                .input-group{
+                    margin-left:4rem;
+                    width: 80%;
+                    position: relative;
+                    h5{
+                        font-size:larger;
+                        font-weight: bold;
+                        position: absolute;
+                        left:10%;
+                        top:0;
+                        margin:0.5rem auto;
+                        color:lightgray;
+                        background: white;
+                    }
+                    input{
+                        margin:1.2rem auto;
+                        width: 80%;
+                        border:none;
+                        padding:0.5rem 0.5rem;
+                        box-shadow: 0.1rem 0.1rem 0.3rem 0.1rem gray;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                 
+                  }
+                }
+                #register-btn{
+                    width: 65%;
+                    background-color: blue;
+                    color:white;
+                    font-size: larger;
+                    cursor: pointer;
+                    border:none;
+                    padding: 0.8rem 2rem;
+                    margin-top: 1rem;
+                    margin-right:3.5rem;
+                    border-radius: 1rem;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover{
+                        box-shadow: 0.5rem 0.5rem 1rem 0.1rem gray;
+                    }
+
+           }
+    }
+    }
+}
+@media(max-width:1000px){
+    .main-Register{
+        flex-direction: column;
+    }
+    .left-side,.right-side{
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    
+    }
+    .body-right{
+        width:100vw;
+    }
+    input{
+        width:150px;
+    }
+}

@@ -1,0 +1,35 @@
+.footer{
+    background:#808080;
+    padding-top:50px;
+    padding-bottom: 15px;
+}
+
+.quick__link {
+    border: none !important;
+    background: transparent !important;
+  }
+  .quick__link a {
+    color: rgba(255, 255, 255, 0.715);
+    text-decoration: none;
+    font-weight: 400;
+    transition: 0.3s;
+  }
+  .quick__link a:hover {
+    color:var(--secondary-color);
+  }
+  .mb-4 h5{
+    font-weight:700;
+  }
+
+  @media only screen and (max-width: 768px){
+        .quick__link{
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+        }
+        .footer_link-title{
+            font-size: 1.2rem;
+            margin-top: 15px;
+         
+        }
+
+  }
