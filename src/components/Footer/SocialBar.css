@@ -35,16 +35,14 @@ button{
   border:none;
   border-color: black;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
     .social_bar{
         justify-content: center;
-     
-    }
-    
+        padding:0;  
+    }    
     .social_items{
         flex-direction: column;
-        justify-content: center;  
-        align-items: center;
+        gap:0;
        
     }
     

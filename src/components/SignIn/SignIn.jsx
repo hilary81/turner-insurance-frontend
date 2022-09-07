@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './SignIn.scss';
+import './SignIn.scss'; 
 import logo from '../images/loginlogo.jpg';
 
 const SignIn = () => {
@@ -38,7 +38,7 @@ const SignIn = () => {
               </h6>
             </div>
           </div>
-
+         
           <div className='right-side'>
             <div className='welcomeNote'>
                 <h3>Welcome Back!</h3>
@@ -51,7 +51,7 @@ const SignIn = () => {
           </div>
  
         </div>
-        
+         
     </div>
     
   )

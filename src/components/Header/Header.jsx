@@ -100,6 +100,14 @@ function Header() {
           <div className="navigation__wrapper d-flex align-items-center justify-content-between">
             <span className="mobile__menu">
               <i className="ri-menu-line" onClick={toggleMenu}></i>
+               <div className="mobile-icon">            
+                <Link to="/logincontroller" className=" d-flex align-items-center gap-2 icon-title">
+                  <i className="ri-login-circle-line mobile-icon-1" onClick={toggleMenu}></i> <span className="title">Login</span>
+                </Link>
+                <Link to="/home" className=" d-flex align-items-center gap-1">
+                  <i className="ri-user-line mobile-icon-2"onClick={toggleMenu}></i><span className="title"> FindUs</span>
+                </Link>
+             </div>
             </span>
 
             <div className="navigation" ref={menuRef} onClick={toggleMenu}>

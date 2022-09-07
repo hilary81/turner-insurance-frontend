@@ -1,8 +1,8 @@
 
 .main-login{
 
-    min-height: 100vh;
-    min-width: 100vw;
+    height: 100vh;
+    width: 100vw;
     overflow-x:hidden;
 
 
@@ -12,13 +12,11 @@
     background:linear-gradient(to right bottom,rgba(240, 240, 239, 0.919),rgba(238, 238, 238, 0.3));
     border-radius: 1.2rem;
     margin: 4rem auto;
-
     display: flex;
     justify-content: center;
     align-items: center;
     .link{
-        text-decoration: none;
-        
+        text-decoration: none;        
         color:var(--primary-color);
     }
     .left-side, .right-side{
@@ -84,6 +82,7 @@
         }
          
     }
+   
     .right-side{
         .welcomeNote{
             h3{
@@ -110,17 +109,30 @@
   }
 }
 @media(max-width:1000px){
-     .login-contain{
-        height: 80vh;
-        width:100%;
-        display:flex;
-        flex-direction: column-reverse;
-
-     }
-     .left-side .right-side{
-       height:100%;
-      
-     }
+    .main-login{
+       display:flex;
+       width:600px;
+       margin-top:50px;
+       height:100vh;
+       margin-left:-100px;
+       padding:0;
+       justify-content: flex-start;
+     
+    }
+  .login-contain{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: 600px;
+    margin:0;
+    padding:0;
+  }
+  .left-side, .right-side{
+    justify-content: flex-start;
+    width:800px;
+  }
+    
+     
 
 
 }

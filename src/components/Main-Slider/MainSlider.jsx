@@ -20,7 +20,7 @@ function UncontrolledExample() {
 
           <h3>Mechanical Breakdown Insurance</h3>
           <h6>Protect yourself against unexpected cost</h6>
-          <p>If your own or buy a second hand car, make sure you're covered for unforeseen and sudden mechanical and electrical breakdowns.</p>
+          <p>If your own or buy a second hand car, make sure you're covered for unforeseen and sudden mechanica breakdowns.</p>
           <button className='slider-button'>Find out more</button>
         </Carousel.Caption>
       </Carousel.Item>
@@ -33,7 +33,7 @@ function UncontrolledExample() {
 
         <Carousel.Caption className="inner-section">
           <h3>Want finance? we can help with that too</h3>
-          <p>Turners organises car and personcal finance through a range of lenders. We'll work with you to get the best deal to suit your particular circumstances and affordability.</p>
+          <p>Turners organises car and personcal finance through a range of lenders. We'll work with you to get the best deal to suit your particular circumstances.</p>
           <button className='slider-button' >Apply online</button>
         </Carousel.Caption>
       </Carousel.Item>

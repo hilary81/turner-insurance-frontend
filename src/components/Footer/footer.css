@@ -1,6 +1,6 @@
 .footer{
     background:#808080;
-    padding-top:50px;
+    padding-top:30px;
     padding-bottom: 15px;
 }
 
@@ -24,11 +24,12 @@
   @media only screen and (max-width: 768px){
         .quick__link{
             font-size: 1.1rem;
-            line-height: 1.5rem;
+            line-height: 0.5rem;
         }
         .footer_link-title{
             font-size: 1.2rem;
-            margin-top: 15px;
+            margin-top: 0px;
+         
          
         }
 

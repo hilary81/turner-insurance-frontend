@@ -54,13 +54,25 @@
   
   .mobile__menu i {
     color:#fff;
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 800;
     cursor: pointer;
   }
   
   .mobile__menu {
     display: none;
+  }
+  .mobile-icon{
+    display: flex;
+    float:right;
+    margin-left:13rem;
+    margin-top:-2.1rem;
+  }
+  .title{
+    color:white;
+  }
+  .title:hover{
+    color:var(--secondary-color);
   }
   
   .menu {
@@ -101,7 +113,6 @@
     color: #fff;
     cursor: pointer;
   }
-  
   .search__box input::placeholder {
     font-size: 1.2rem;
     font-weight: 700;
@@ -115,7 +126,7 @@
     color:var(--secondary-color);
   }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 900px) {
     .header__top,
     .header__middle,
     .nav__right {
