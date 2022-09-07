@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=hilary81_turner-insurance-frontend)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
