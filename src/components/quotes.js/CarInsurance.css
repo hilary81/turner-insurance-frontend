@@ -86,6 +86,7 @@
 button{
     padding:0.4rem;
     background-color: var(--secondary-color);
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 .yesno-butt, .search-butt, .add-butt, .gender-butt{
     padding:0.4rem 1.5rem;
@@ -101,9 +102,6 @@ button{
     display: flex;
     flex-direction: row;
     gap:1rem;
-}
-button{
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 button:hover{    
